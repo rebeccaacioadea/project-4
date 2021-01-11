@@ -1,4 +1,5 @@
 
+
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 General Assembly, Software Engineering Immersive
 
@@ -131,6 +132,7 @@ It had been an amazing experience to build a full-stack application using two di
 [Sagal](https://github.com/sagalosman)
 
 [James](https://github.com/JamesPBolton)
+
 
 
 
