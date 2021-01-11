@@ -6,7 +6,7 @@ General Assembly, Software Engineering Immersive
 # Poppins
  [](http://poppins-books.herokuapp.com/)
  
-###A Flask & React Application
+### A Flask & React Application
 A Plant Baby Sitting App
 
 ## Overview 
