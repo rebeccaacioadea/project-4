@@ -7,7 +7,7 @@ General Assembly, Software Engineering Immersive
  [](http://poppins-books.herokuapp.com/)
  
 ### A Flask & React Application
-A Plant Baby Sitting App
+A Book sharing App
 
 ## Overview 
 This is my final project at General Assembly as a Software Engineer Immersive course's student. We were placed in a group of 3 to worked together to design and develop a full stack application within 6 days. This project required us as a team to build both backend and front-end using technologies such as PostgreSQL, Python, Flask and React.
