@@ -3,8 +3,7 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 General Assembly, Software Engineering Immersive
 
-# Poppins
- [](http://poppins-books.herokuapp.com/)
+# [Poppins](http://poppins-books.herokuapp.com/)
  
 ### A Flask & React Application
 A Book sharing App
@@ -64,7 +63,7 @@ login into our app.
 On the first we discussed the full-stack app we wanted to design and build as a team and then we work through the backend framework together.
 We look at different features we wanted the app to have. We had to look into what our models and their relationship with each other might look like for our data.
 We also identify on day 1 that we will need an external API for this project, therefore we had to find the API that was able to give us the information required.
-Additionally, we looked at what CRUD we would like our API to use
+Additionally, we looked at what CRUD we would like our API to have.
 
 Below is a copy of the planning for our backend development we came out with this project.
  
@@ -79,21 +78,21 @@ Although we had created, we wanted to use an external API along with our own API
 We started developing the backend together through *'Zoom Screenshare'*. Starting with server.js, models (for our data, message and user), router.js and controllers.
 For each stage we tested on the ***'terminal'*** and ***'Insomnia'*** to see our codes were written correcting without a bug before moving onto the next task.
 
-Examples of our backend structures: models, serializers, controllers etc
+Examples of our backend structures: models, serializers, controllers etc.
 
 ![](https://i.imgur.com/HI1B0VKm.png)
 
 
-Example of the structure of Basemodel for the database 
+Example of the structure of Basemodel for the database.
 ![](https://i.imgur.com/I9GznZO.png)
 
-Example of the structure of 'book' model
+Example of the structure of 'book' model.
 ![](https://i.imgur.com/KVH8BtHl.png)
 
 Example of the structure of the many-to- many (M-M) relationship between the models for our data.
 ![](https://i.imgur.com/xsNP6vg.png)
 
-Example of the serializer for our 'Books' data
+Example of the serializer for our 'Books' data.
 ![](https://i.imgur.com/FciMJ4z.png) 
 
 
@@ -109,7 +108,27 @@ When we were working on the front-end, we realised that the 'relationship' betwe
 
 We briefly went through the components for the frontend and setted it up together through *'Zoom Screenshare'*. 
 
-We used React hooks, useState and useEffect along with axios to fetch data from our internal API. 
+## Screenshots
+
+![](https://i.imgur.com/wFPU7BYl.png)
+![](https://i.imgur.com/VFiPDISl.png)
+![](https://i.imgur.com/53hNa3nl.png)
+
+## Challenges 
+
+
+
+## Key learnings
+
+By the end of this project, I had learnt:
+
+1. How to build  an application using two different programming languages; JavaScript and Python.
+2. How to build a API using Python Flask, PostgreSQL, Marshmallow and SQLAlchemy
+3. How to combine both internal and external APIs to create an expressive frontend using React.js.
+4. Importance of effective communication vital collaborating with others. 
+5. Effectiveness of planning. 
+6. Importance of setting and meeting deadlines.
+7. Presentation skill as we had to demonstrate our demo.
 
 
 ## Summary
