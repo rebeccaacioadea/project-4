@@ -6,15 +6,17 @@ General Assembly, Software Engineering Immersive
 # [Poppins](http://poppins-books.herokuapp.com/)
  
 ### A Flask & React Application
+
 A Book sharing App
 
 ## Overview 
+
 This is my final project at General Assembly as a Software Engineer Immersive course's student. We were placed in a group of 3 to worked together to design and develop a full stack application within 6 days. This project required us as a team to build both backend and front-end using technologies such as PostgreSQL, Python, Flask and React.
 
-Poppins is an app where young readers and their parents can share the views  about a book and can also make recommendation to their fellow readers. 
+Poppins is an app where young readers and their parents can share the views about a book and can also make recommendation to their fellow readers. 
 
 
-### Brief:
+### Brief
 
 * Collaborative development using Git and GitHub.
 * Build a full-stack application by making your own backend and front-end.
@@ -25,7 +27,7 @@ Poppins is an app where young readers and their parents can share the views  abo
 * Design a visually impressive Front End, with mobile responsiveness as a key element.
 * Be deploy online and accessible to the public.
 
-### Technologies:
+### Technologies
 
 * HTML
 * SCSS
@@ -45,7 +47,7 @@ Poppins is an app where young readers and their parents can share the views  abo
 * Herokun(Deployment)
 
 
-## Functionality: 
+## Functionality 
 
 User should be able to:
 * Register and
@@ -55,11 +57,12 @@ login into our app.
 * Add, update or delete books in their profile.
 * Make comments and recommendation on books.
 
-## Approach taken:
+## Approach taken
 
 
 
 ### Planning 
+
 On the first we discussed the full-stack app we wanted to design and build as a team and then we work through the backend framework together.
 We look at different features we wanted the app to have. We had to look into what our models and their relationship with each other might look like for our data.
 We also identify on day 1 that we will need an external API for this project, therefore we had to find the API that was able to give us the information required.
@@ -70,13 +73,16 @@ Below is a copy of the planning for our backend development we came out with thi
 ![](https://i.imgur.com/80jouat.png)
 
 ## Endpoints
+
 Although we had created, we wanted to use an external API along with our own API we had created. We had some issues with obtaining the 'API_Key', therefore, we ended up manually seeding the data.
 
 
 ### The Backend 
 
-We started developing the backend together through *'Zoom Screenshare'*. Starting with server.js, models (for our data, message and user), router.js and controllers.
-For each stage we tested on the ***'terminal'*** and ***'Insomnia'*** to see our codes were written correcting without a bug before moving onto the next task.
+We started developing the backend together through *'Zoom Screenshare'*. Starting with server.js, models (for our data, comment and user) and app.py.
+I then move on to creating the serializers for each model and creating the controllers for routes/endpoints for the internal API.
+For each stage I tested on the ***'terminal'*** and ***'Insomnia'*** to see our codes were written correcting without a bug before moving onto the next task.
+
 
 Examples of our backend structures: models, serializers, controllers etc.
 
@@ -103,6 +109,7 @@ We used the JSON Web Token (jwt) method to generate authentication.
 
 
 ### The Frontend with React
+
 After creating the fundamental of the Backend, we started working on the Front-end. 
 When we were working on the front-end, we realised that the 'relationship' between some of the models were incorrect, so I had to go back to the backend and make the correction before joining the rest of the team on the fort-end. 
 
@@ -114,7 +121,11 @@ We briefly went through the components for the frontend and setted it up togethe
 ![](https://i.imgur.com/VFiPDISl.png)
 ![](https://i.imgur.com/53hNa3nl.png)
 
-## Challenges 
+## Wins & Challenges 
+
+The challenge of working in a bigger group was regardless of how much communication we were having as a group; we still had major conflicts after merging or pulling work from the development branch(git). Sometimes we were able to sort out the conflict fast, however sometimes the impact of the conflict costed me at least 2-3 hours of debugging since I was the main person who was debugging and solving any problem that arises.
+
+The win for me was that I learnt so much during this project and I have developed a deeper interest for the backend since I my main focus for this the project was the backend development.
 
 
 
@@ -122,8 +133,8 @@ We briefly went through the components for the frontend and setted it up togethe
 
 By the end of this project, I had learnt:
 
-1. How to build  an application using two different programming languages; JavaScript and Python.
-2. How to build a API using Python Flask, PostgreSQL, Marshmallow and SQLAlchemy
+1. How to build an application using two different programming languages; JavaScript and Python.
+2. How to build an API using Python Flask, PostgreSQL, Marshmallow and SQLAlchemy
 3. How to combine both internal and external APIs to create an expressive frontend using React.js.
 4. Importance of effective communication vital collaborating with others. 
 5. Effectiveness of planning. 
